@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Twitter Clone</title>
+  <link rel="stylesheet" href="twitter.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+  <div class="container">
+    
+    <aside class="sidebar">
+      <div>
+      <div class="logo">
+        <i class="fa-brands fa-twitter"></i>
+      </div>
+      <nav>
+        <ul>
+          <li><i class="fas fa-home"></i> Home</li>
+          <li><i class="fas fa-hashtag"></i> Explore</li>
+          <li><i class="far fa-bell"></i> Notifications</li>
+          <li><i class="far fa-envelope"></i> Messages</li>
+          <li><i class="far fa-bookmark"></i> Bookmarks</li>
+          <li><i class="fa fa-retweet" aria-hidden="true"></i>Twitter Blue</li>
+           <li><i class="far fa-user"></i> Profile<li>
+          <li><i class="fas fa-ellipsis-h"></i> More<li>
+        </ul>
+      </nav>
+      <button class="tweet-btn">Tweet</button>
+    </div>
+    <div>
+      <div class="user-profile">
+        <div class="profile-pic">
+          <img src="/images/profile.JPG" alt="User Profile Picture" />
+        </div>
+        <div class="user-info">
+          <p class="username">Devissa</p>
+          <p class="handle">@webdev_jssa</p>
+        </div>
+        <div class="more-options">
+          <span>...</span>
+        </div>
+      </div>
+    </div>
+      
+    </aside>
+
+    <main class="content">
+      <div class="header">
+        <div class="home">
+        <h3>Home</h3>
+        </div>
+      <div class="forYou">
+        <p>For you</p>
+        <p>Following</p>
+      </div>
+
+      </div>
+      <div class="tweet-box">
+        <div class="user-avatar">
+          <img src="https://via.placeholder.com/50" alt="User Avatar">
+          <textarea placeholder="What's happening?"></textarea>
+        </div>
+       
+        <div class="actions">
+          <div class="icons">
+          <i class="far fa-image"></i>
+          <i class="fa fa-credit-card-alt" aria-hidden="true"></i>
+          <i class="fa fa-map-marker" aria-hidden="true"></i>
+          <i class="fa fa-bars" aria-hidden="true"></i>
+          <i class="far fa-smile"></i>
+          <i class="far fa-calendar-alt"></i>
+        </div>
+        <div class="button">
+          <button class="button">Tweet</button>
+        </div>
+        </div>
+      </div>
+      <div class="popup-container">
+        <div class="popup-content">
+          <h2>Before you scroll...</h2>
+          <p>
+            We're updating our corporate name in our
+            <a href="#" class="link">Terms of Service</a> and
+            <a href="#" class="link">Privacy Policy</a>. Now's a great chance to review them.
+          </p>
+          <button class="popup-button">Got it</button>
+        </div>
+      </div>
+      
+      <div class="feed">
+        <div class="tweet">
+          <div class="user-avatar">
+            <img src="images/profile.JPG" alt="User ">
+          </div>
+          <div class="tweet-content">
+            <h3>Akash Shavda<span>@Sky_Chavda · 4h</span></h3>
+            <p>React interview is not just questions and answer.</p>
+            <p>It includes coding as well.</p>
+            <p>I uopdated my React questions guide with coding questions.</p>
+            <p>If you had it then refresh it you will get it or else</p>
+            <div class="tweet-actions">
+             <ul>
+              To get it
+              <li>Like</li>
+              <li>Reply"React"</li>
+              <li>Follow me (so  I can DM)</li>
+             </ul>
+             <img src="/images/about.png" alt="tweet"/>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <div class="trends-container">
+      <div class="search-bar">
+        <input type="text" placeholder="Search trends..." />
+      </div>
+    
+      <div class="trends-header">
+        <h2>Trends for you</h2>
+      </div>
+    
+      <ul class="trends-list">
+        <li class="trend">
+          <p class="category">Technology · Trending</p>
+          <h3>#reactjs</h3>
+          <p class="tweet-count">1,890 Tweets</p>
+        </li>
+        <li class="trend">
+          <p class="category">Politics · Trending</p>
+          <h3>Uganda</h3>
+          <p class="tweet-count">35.4K Tweets</p>
+        </li>
+        <li class="trend">
+          <p class="category">Trending in Rwanda</p>
+          <h3>Money</h3>
+          <p class="tweet-count">1.2M Tweets</p>
+        </li>
+        <li class="trend">
+          <p class="category">Trending in Rwanda</p>
+          <h3>Rusesabagina</h3>
+          <p class="tweet-count">3,731 Tweets</p>
+        </li>
+        <li class="trend">
+          <p class="category">Trending in Rwanda</p>
+          <h3>Kagame</h3>
+          <p class="tweet-count">2,731 Tweets</p>
+        </li>
+        <li class="trend">
+          <p class="category">Trending in Rwanda</p>
+          <h3>Labor Day</h3>
+          <p class="tweet-count">9,309 Tweets</p>
+        </li>
+        <li class="trend">
+          <p class="category">Trending in Rwanda</p>
+          <h3>Kenya</h3>
+          <p class="tweet-count">62.7K Tweets</p>
+        </li>
+        <li class="trend">
+          <p class="category">Trending in Rwanda</p>
+          <h3>1994 Genocide</h3>
+          
+        </li>
+        <li class="trend">
+          <p class="category">Trending in Rwanda</p>
+          <h3>Imana</h3>
+          <p class="tweet-count">2,112 Tweets</p>
+        </li>
+        <li class="trend">
+          <p class="category">Trending in Rwanda</p>
+          <h3>Kigali</h3>
+          <p class="tweet-count">2,556 Tweets</p>
+        </li>
+      </ul>
+    
+      <div class="show-more">
+        <a href="#">Show more</a>
+      </div>
+    </div>
+    
+  </div>
+</body>
+</html>
